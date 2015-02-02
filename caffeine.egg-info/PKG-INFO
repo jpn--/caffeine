@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: caffeine
+Version: 0.1
+Summary: A tool to keep Mac OS X from sleeping
+Home-page: https://github.com/jpn--/caffeine
+Author: Jeffrey Newman
+Author-email: jeff@newman.me
+License: MIT
+Download-URL: https://github.com/jpn--/caffeine
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X

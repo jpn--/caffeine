@@ -1,7 +1,8 @@
-from distutils.core import setup
+from setuptools import setup
+
 setup(
   name = 'caffeine',
-  py_modules = ['caffeine']
+  py_modules = ['caffeine'],
   version = '0.1',
   description = 'A tool to keep Mac OS X from sleeping',
   author = 'Jeffrey Newman',
