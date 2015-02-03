@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
   name = 'caffeine',
   py_modules = ['caffeine'],
-  version = '0.1',
+  version = '0.2',
   description = 'A tool to keep Mac OS X from sleeping',
   author = 'Jeffrey Newman',
   author_email = 'jeff@newman.me',
@@ -15,5 +15,5 @@ setup(
 			'Programming Language :: Python :: 3',
 			'Operating System :: MacOS :: MacOS X',
 		  ],
-  install_requires=["pyobjc >= 3.0.4",],
+  install_requires=["pyobjc-core >= 3.0.4",],
 )

@@ -1,1 +1,27 @@
-Just `import caffeine`.  That's it!
+Use this module to prevent your Mac OS X system from sleeping while executing
+a long-running python script.
+
+Quick Start
+-----------
+
+Just `import caffeine`.  That's it!  You Mac OS X system will not sleep as 
+long as the interpreter remains alive.  No need to run any other commands.
+But if you want slightly finer controls, a few functions are available.
+
+`caffeine.on(display=False)`
+
+Use the `on` function to create a power assertion.  Set display=True to also
+keep your display from sleeping. The default of display=False will allow
+your display to sleep but will keep your system awake so processing can
+continue.  If a power assertion is active, calling `on()` with display set
+to the other value will change the assertion.  Calling `on()` with the same 
+value is a harmless no-op.
+
+`caffeine.off()`
+
+Use the `off` function to release any power assertion before your interpreter
+exits.
+
+`caffeine.verify()`
+
+Calls `pmset -g assertions` to verify what power assertions are active.
