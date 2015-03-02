@@ -63,6 +63,7 @@ def off():
 	_assertID.value = 0
 
 def verify():
+	import subprocess
 	subprocess.call(['pmset', '-g', 'assertions'])
 
 on()

@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
   name = 'caffeine',
   py_modules = ['caffeine'],
-  version = '0.2',
+  version = '0.3',
   description = 'A tool to keep Mac OS X from sleeping',
   author = 'Jeffrey Newman',
   author_email = 'jeff@newman.me',
